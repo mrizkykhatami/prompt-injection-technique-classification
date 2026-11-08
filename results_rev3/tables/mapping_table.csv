@@ -1,0 +1,30 @@
+﻿category,class_code,class_name,reason
+benign,K0,Benign,Prompt aman; tidak memuat teknik serangan.
+context_confusion,K1,Instruction Override,Mengaburkan batas antara instruksi dan konteks.
+direct_injection,K1,Instruction Override,Instruksi langsung yang mencoba mengambil alih perilaku model.
+instruction_override,K1,Instruction Override,Mengganti atau mengesampingkan instruksi sebelumnya.
+output_manipulation,K1,Instruction Override,Memaksa format atau isi output. Kategori campuran: sebagian contoh berupa ekstraksi instruksi (lebih dekat ke K4); dicatat sebagai keterbatasan. Ditinjau 6 Nov 2026.
+payload_injection,K1,Instruction Override,Menyisipkan payload instruksional ke dalam konteks prompt.
+prompt_injection,K1,Instruction Override,Instruksi injeksi langsung pada prompt.
+response_manipulation,K1,Instruction Override,Memaksa isi atau bentuk respons model (mis. hanya menjawab 'Yes'). Ditinjau 6 Nov 2026.
+system_manipulation,K1,Instruction Override,Memanipulasi instruksi atau konteks sistem.
+chain_of_thought,K2,Role-play and Conversational Jailbreak,Pembingkaian hipotetis/penalaran untuk melewati batasan; hanya 2 baris di train. Ditinjau 6 Nov 2026.
+crescendo,K2,Role-play and Conversational Jailbreak,Eskalasi bertahap dalam interaksi multi-turn.
+jailbreak,K2,Role-play and Conversational Jailbreak,"Jailbreak melalui persona, percakapan, atau skenario."
+many_shot,K2,Role-play and Conversational Jailbreak,Banyak contoh dialog untuk mengarahkan perilaku model.
+multi_turn,K2,Role-play and Conversational Jailbreak,Strategi jailbreak yang mengandalkan beberapa giliran percakapan.
+persona_replacement,K2,Role-play and Conversational Jailbreak,Mengganti persona/peran model untuk melewati batasan.
+encoding,K3,Obfuscation and Token Smuggling,Menyamarkan instruksi melalui encoding.
+encoding_obfuscation,K3,Obfuscation and Token Smuggling,"Obfuscation sintaktis seperti base64, ROT13, atau leetspeak."
+token_injection,K3,Obfuscation and Token Smuggling,Token khusus templat percakapan (mis. <|im_start|>) untuk memalsukan batas giliran. Ditinjau 6 Nov 2026.
+token_smuggling,K3,Obfuscation and Token Smuggling,Menyelundupkan payload melalui manipulasi token.
+model_fingerprinting,K4,Prompt and Information Extraction,Mengidentifikasi atau mengungkap karakteristik model.
+prompt_extraction,K4,Prompt and Information Extraction,Meminta pengungkapan prompt atau instruksi tersembunyi.
+prompt_leak,K4,Prompt and Information Extraction,Prompt leaking atau pengungkapan prompt.
+system_extraction,K4,Prompt and Information Extraction,Meminta ekstraksi instruksi sistem.
+training_extraction,K4,Prompt and Information Extraction,Rekonstruksi atau ekstraksi data pelatihan.
+adversarial,K5,"Code Execution, Indirect and Agent Injection",Payload eksekusi kode yang diketik langsung; tetap di K5 setelah K5 diganti nama (keputusan 6 Nov 2026).
+agent_manipulation,K5,"Code Execution, Indirect and Agent Injection",Memanipulasi agen atau alur penggunaan tools.
+code_execution,K5,"Code Execution, Indirect and Agent Injection",Mendorong eksekusi kode atau tindakan agen.
+indirect_injection,K5,"Code Execution, Indirect and Agent Injection",Instruksi injeksi yang datang melalui konten eksternal.
+rag_poisoning,K5,"Code Execution, Indirect and Agent Injection",Meracuni sumber retrieval/RAG agar instruksi berbahaya terambil.

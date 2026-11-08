@@ -1,0 +1,30 @@
+﻿class_code,class_name,category,rows,share_in_class
+K0,Benign,benign,2476,1.0
+K1,Instruction Override,direct_injection,2004,0.9239280774550485
+K1,Instruction Override,system_manipulation,35,0.016136468418626097
+K1,Instruction Override,instruction_override,27,0.012448132780082987
+K1,Instruction Override,context_confusion,26,0.0119870908252651
+K1,Instruction Override,output_manipulation,21,0.009681881051175657
+K1,Instruction Override,prompt_injection,21,0.009681881051175657
+K1,Instruction Override,response_manipulation,19,0.00875979714153988
+K1,Instruction Override,payload_injection,16,0.007376671277086215
+K2,Role-play and Conversational Jailbreak,jailbreak,389,0.8456521739130435
+K2,Role-play and Conversational Jailbreak,persona_replacement,29,0.06304347826086956
+K2,Role-play and Conversational Jailbreak,multi_turn,25,0.05434782608695652
+K2,Role-play and Conversational Jailbreak,crescendo,9,0.01956521739130435
+K2,Role-play and Conversational Jailbreak,many_shot,6,0.013043478260869565
+K2,Role-play and Conversational Jailbreak,chain_of_thought,2,0.004347826086956522
+K3,Obfuscation and Token Smuggling,encoding,247,0.8205980066445183
+K3,Obfuscation and Token Smuggling,token_smuggling,39,0.12956810631229235
+K3,Obfuscation and Token Smuggling,encoding_obfuscation,10,0.03322259136212625
+K3,Obfuscation and Token Smuggling,token_injection,5,0.016611295681063124
+K4,Prompt and Information Extraction,training_extraction,91,0.6232876712328768
+K4,Prompt and Information Extraction,prompt_extraction,19,0.13013698630136986
+K4,Prompt and Information Extraction,model_fingerprinting,18,0.1232876712328767
+K4,Prompt and Information Extraction,system_extraction,15,0.10273972602739725
+K4,Prompt and Information Extraction,prompt_leak,3,0.02054794520547945
+K5,"Code Execution, Indirect and Agent Injection",adversarial,547,0.8641390205371248
+K5,"Code Execution, Indirect and Agent Injection",agent_manipulation,36,0.05687203791469194
+K5,"Code Execution, Indirect and Agent Injection",rag_poisoning,36,0.05687203791469194
+K5,"Code Execution, Indirect and Agent Injection",indirect_injection,9,0.014218009478672985
+K5,"Code Execution, Indirect and Agent Injection",code_execution,5,0.007898894154818325

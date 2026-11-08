@@ -1,0 +1,7 @@
+﻿held_out,eval_source,support,benign_support,accuracy_in_distribution,accuracy_held_out,fp_in_distribution,fp_held_out,excluded_train_rows
+harmbench,harmbench,16,0,0.8125,0.5,0,0,84
+harmbench_benign,harmbench_benign,22,22,0.4090909090909091,0.09090909090909091,13,20,78
+original,original,19,6,0.631578947368421,0.5789473684210527,1,2,113
+wildguard_judgecomp,wildguard_judgecomp,43,30,0.6511627906976745,0.4883720930232558,13,21,257
+harmbench+harmbench_benign,harmbench,16,0,0.8125,0.75,0,0,162
+harmbench+harmbench_benign,harmbench_benign,22,22,0.4090909090909091,0.6818181818181818,13,7,162

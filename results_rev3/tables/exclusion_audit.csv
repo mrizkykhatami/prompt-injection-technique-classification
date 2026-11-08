@@ -1,0 +1,7 @@
+﻿split,category,count,reason
+train,edge_case,42,Kategori tidak terdefinisi secara operasional untuk enam kelas teknik.
+train,control,17,Baris kontrol berlabel serangan tetapi teksnya aman dan tidak memuat teknik serangan.
+validation,edge_case,11,Kategori tidak terdefinisi secara operasional untuk enam kelas teknik.
+validation,control,5,Baris kontrol berlabel serangan tetapi teksnya aman dan tidak memuat teknik serangan.
+test,edge_case,9,Kategori tidak terdefinisi secara operasional untuk enam kelas teknik.
+test,control,5,Baris kontrol berlabel serangan tetapi teksnya aman dan tidak memuat teknik serangan.

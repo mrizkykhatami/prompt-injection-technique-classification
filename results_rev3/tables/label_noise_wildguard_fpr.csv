@@ -1,0 +1,3 @@
+﻿subset,benign_minority_support,false_positive,FPR
+label_asli,58,27,0.46551724137931033
+tanpa_label_keliru,48,17,0.3541666666666667

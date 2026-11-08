@@ -1,0 +1,64 @@
+{
+  "dataset_id": "neuralchemy/Prompt-injection-dataset",
+  "dataset_config": "core",
+  "class_names": {
+    "K0": "Benign",
+    "K1": "Instruction Override",
+    "K2": "Role-play and Conversational Jailbreak",
+    "K3": "Obfuscation and Token Smuggling",
+    "K4": "Prompt and Information Extraction",
+    "K5": "Code Execution, Indirect and Agent Injection"
+  },
+  "mapping_file": "/content/drive/MyDrive/prompt_injection_project/mapping.csv",
+  "excluded_categories": {
+    "edge_case": "Kategori tidak terdefinisi secara operasional untuk enam kelas teknik.",
+    "control": "Baris kontrol berlabel serangan tetapi teksnya aman dan tidak memuat teknik serangan."
+  },
+  "feature_source": "text_only",
+  "representations": [
+    "R1",
+    "R2",
+    "R3"
+  ],
+  "algorithms": [
+    "Naive Bayes",
+    "SVM",
+    "Random Forest",
+    "MLP"
+  ],
+  "embedding_model": "sentence-transformers/all-MiniLM-L12-v2",
+  "selection_metric": "validation_macro_f1",
+  "test_policy": "single final evaluation after train+validation refit",
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "embedding_cache_fingerprints": {
+    "train": "0d55c7d5d4fe",
+    "validation": "feb6430616d4",
+    "test": "77aefe92e2d2"
+  },
+  "notebook_revision": "2026-11-08 rev3 (pinned versions, extra analyses)",
+  "runtime": {
+    "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+    "processor": "x86_64",
+    "cpu_count": 2,
+    "colab_tpu": false,
+    "cuda_available": false,
+    "cuda_device": null,
+    "cpu_model": "Intel(R) Xeon(R) CPU @ 2.20GHz"
+  },
+  "package_versions": {
+    "python": "3.13.18 (main, Oct 26 2026, 15:28:15) [GCC 13.3.0]",
+    "numpy": "2.4.6",
+    "pandas": "2.2.3",
+    "scikit_learn": "1.6.1",
+    "datasets": "4.8.5",
+    "sentence_transformers": "5.7.0",
+    "scipy": "1.16.3",
+    "statsmodels": "0.15.0"
+  }
+}

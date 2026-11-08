@@ -1,0 +1,7 @@
+﻿source,adversarial,agent_manipulation,benign,chain_of_thought,code_execution,context_confusion,control,crescendo,direct_injection,edge_case,encoding,encoding_obfuscation,indirect_injection,instruction_override,jailbreak,many_shot,model_fingerprinting,multi_turn,output_manipulation,payload_injection,persona_replacement,prompt_extraction,prompt_injection,prompt_leak,rag_poisoning,response_manipulation,system_extraction,system_manipulation,token_injection,token_smuggling,training_extraction
+hackaprompt,0,0,0,0,0,0,0,0,1383,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+harmbench,0,0,0,0,0,0,0,0,0,0,0,0,0,0,70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+harmbench_benign,0,0,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+neuralchemy_v1,383,25,1492,2,4,16,17,0,0,42,177,0,0,21,124,0,16,12,16,10,17,14,16,3,26,13,0,29,4,21,68
+original,0,0,20,0,0,0,0,9,14,0,0,6,8,0,13,5,0,0,0,0,8,0,0,0,0,0,10,0,0,6,0
+wildguard_judgecomp,0,0,127,0,0,0,0,0,0,0,0,0,0,0,84,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0

@@ -1,0 +1,13 @@
+﻿algorithm,representation,params,validation_macro_f1
+SVM,R2,{'C': 1},0.9133963907425154
+MLP,R2,"{'alpha': 0.001, 'hidden_layer_sizes': (256,)}",0.9022876435561825
+Random Forest,R2,"{'max_depth': None, 'min_samples_leaf': 1}",0.8765444910371919
+SVM,R3,"{'C': 5, 'gamma': 'scale'}",0.8750713906802821
+SVM,R1,{'C': 1},0.8480097254310851
+MLP,R1,"{'alpha': 0.001, 'hidden_layer_sizes': (256,)}",0.8476167945562373
+Random Forest,R1,"{'max_depth': None, 'min_samples_leaf': 1}",0.8431031721172828
+MLP,R3,"{'alpha': 0.0001, 'hidden_layer_sizes': (256,)}",0.8110621367102536
+Naive Bayes,R2,{'alpha': 0.01},0.7834403158515699
+Naive Bayes,R1,{'alpha': 0.01},0.7820615040032922
+Random Forest,R3,"{'max_depth': None, 'min_samples_leaf': 2}",0.705807415656074
+Naive Bayes,R3,{'var_smoothing': 1e-09},0.6501923061472618

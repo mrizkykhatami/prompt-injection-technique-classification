@@ -1,0 +1,2 @@
+﻿comparison,model_a,model_b,a_correct_b_wrong,a_wrong_b_correct,p_raw
+best_vs_runner_up,SVM / R2,MLP / R2,13,9,0.5234670639038086

@@ -1,0 +1,289 @@
+﻿algorithm,representation,original_category,support,mapped_class,category_recall
+Naive Bayes,R1,adversarial,79,K5,0.9620253164556962
+Naive Bayes,R1,agent_manipulation,8,K5,0.625
+Naive Bayes,R1,benign,381,K0,0.905511811023622
+Naive Bayes,R1,context_confusion,6,K1,0.8333333333333334
+Naive Bayes,R1,direct_injection,314,K1,0.8630573248407644
+Naive Bayes,R1,encoding,30,K3,0.8
+Naive Bayes,R1,encoding_obfuscation,1,K3,0.0
+Naive Bayes,R1,indirect_injection,1,K5,0.0
+Naive Bayes,R1,instruction_override,4,K1,1.0
+Naive Bayes,R1,jailbreak,50,K2,0.68
+Naive Bayes,R1,many_shot,1,K2,1.0
+Naive Bayes,R1,multi_turn,4,K2,1.0
+Naive Bayes,R1,output_manipulation,5,K1,0.8
+Naive Bayes,R1,payload_injection,2,K1,1.0
+Naive Bayes,R1,persona_replacement,3,K2,0.6666666666666666
+Naive Bayes,R1,prompt_extraction,3,K4,0.3333333333333333
+Naive Bayes,R1,prompt_injection,4,K1,0.75
+Naive Bayes,R1,rag_poisoning,4,K5,0.5
+Naive Bayes,R1,response_manipulation,4,K1,1.0
+Naive Bayes,R1,system_extraction,2,K4,0.0
+Naive Bayes,R1,system_manipulation,4,K1,0.75
+Naive Bayes,R1,token_injection,1,K3,1.0
+Naive Bayes,R1,token_smuggling,7,K3,0.42857142857142855
+Naive Bayes,R1,training_extraction,10,K4,0.9
+Naive Bayes,R2,adversarial,79,K5,0.9367088607594937
+Naive Bayes,R2,agent_manipulation,8,K5,0.625
+Naive Bayes,R2,benign,381,K0,0.931758530183727
+Naive Bayes,R2,context_confusion,6,K1,0.6666666666666666
+Naive Bayes,R2,direct_injection,314,K1,0.9904458598726115
+Naive Bayes,R2,encoding,30,K3,0.8333333333333334
+Naive Bayes,R2,encoding_obfuscation,1,K3,0.0
+Naive Bayes,R2,indirect_injection,1,K5,0.0
+Naive Bayes,R2,instruction_override,4,K1,1.0
+Naive Bayes,R2,jailbreak,50,K2,0.62
+Naive Bayes,R2,many_shot,1,K2,0.0
+Naive Bayes,R2,multi_turn,4,K2,0.75
+Naive Bayes,R2,output_manipulation,5,K1,1.0
+Naive Bayes,R2,payload_injection,2,K1,0.0
+Naive Bayes,R2,persona_replacement,3,K2,0.3333333333333333
+Naive Bayes,R2,prompt_extraction,3,K4,0.3333333333333333
+Naive Bayes,R2,prompt_injection,4,K1,1.0
+Naive Bayes,R2,rag_poisoning,4,K5,0.75
+Naive Bayes,R2,response_manipulation,4,K1,1.0
+Naive Bayes,R2,system_extraction,2,K4,0.0
+Naive Bayes,R2,system_manipulation,4,K1,1.0
+Naive Bayes,R2,token_injection,1,K3,1.0
+Naive Bayes,R2,token_smuggling,7,K3,0.5714285714285714
+Naive Bayes,R2,training_extraction,10,K4,0.5
+Naive Bayes,R3,adversarial,79,K5,0.7721518987341772
+Naive Bayes,R3,agent_manipulation,8,K5,0.0
+Naive Bayes,R3,benign,381,K0,0.889763779527559
+Naive Bayes,R3,context_confusion,6,K1,0.0
+Naive Bayes,R3,direct_injection,314,K1,0.8503184713375797
+Naive Bayes,R3,encoding,30,K3,0.9
+Naive Bayes,R3,encoding_obfuscation,1,K3,0.0
+Naive Bayes,R3,indirect_injection,1,K5,0.0
+Naive Bayes,R3,instruction_override,4,K1,0.0
+Naive Bayes,R3,jailbreak,50,K2,0.78
+Naive Bayes,R3,many_shot,1,K2,1.0
+Naive Bayes,R3,multi_turn,4,K2,1.0
+Naive Bayes,R3,output_manipulation,5,K1,0.2
+Naive Bayes,R3,payload_injection,2,K1,0.0
+Naive Bayes,R3,persona_replacement,3,K2,0.6666666666666666
+Naive Bayes,R3,prompt_extraction,3,K4,0.6666666666666666
+Naive Bayes,R3,prompt_injection,4,K1,0.0
+Naive Bayes,R3,rag_poisoning,4,K5,0.0
+Naive Bayes,R3,response_manipulation,4,K1,0.0
+Naive Bayes,R3,system_extraction,2,K4,1.0
+Naive Bayes,R3,system_manipulation,4,K1,0.0
+Naive Bayes,R3,token_injection,1,K3,1.0
+Naive Bayes,R3,token_smuggling,7,K3,0.14285714285714285
+Naive Bayes,R3,training_extraction,10,K4,0.5
+SVM,R1,adversarial,79,K5,0.9367088607594937
+SVM,R1,agent_manipulation,8,K5,0.875
+SVM,R1,benign,381,K0,0.9291338582677166
+SVM,R1,context_confusion,6,K1,0.8333333333333334
+SVM,R1,direct_injection,314,K1,0.9904458598726115
+SVM,R1,encoding,30,K3,0.8666666666666667
+SVM,R1,encoding_obfuscation,1,K3,1.0
+SVM,R1,indirect_injection,1,K5,1.0
+SVM,R1,instruction_override,4,K1,1.0
+SVM,R1,jailbreak,50,K2,0.76
+SVM,R1,many_shot,1,K2,1.0
+SVM,R1,multi_turn,4,K2,1.0
+SVM,R1,output_manipulation,5,K1,1.0
+SVM,R1,payload_injection,2,K1,1.0
+SVM,R1,persona_replacement,3,K2,0.6666666666666666
+SVM,R1,prompt_extraction,3,K4,1.0
+SVM,R1,prompt_injection,4,K1,1.0
+SVM,R1,rag_poisoning,4,K5,0.75
+SVM,R1,response_manipulation,4,K1,1.0
+SVM,R1,system_extraction,2,K4,0.0
+SVM,R1,system_manipulation,4,K1,1.0
+SVM,R1,token_injection,1,K3,1.0
+SVM,R1,token_smuggling,7,K3,0.7142857142857143
+SVM,R1,training_extraction,10,K4,0.9
+SVM,R2,adversarial,79,K5,0.9620253164556962
+SVM,R2,agent_manipulation,8,K5,1.0
+SVM,R2,benign,381,K0,0.9291338582677166
+SVM,R2,context_confusion,6,K1,0.6666666666666666
+SVM,R2,direct_injection,314,K1,0.9808917197452229
+SVM,R2,encoding,30,K3,0.9666666666666667
+SVM,R2,encoding_obfuscation,1,K3,1.0
+SVM,R2,indirect_injection,1,K5,0.0
+SVM,R2,instruction_override,4,K1,1.0
+SVM,R2,jailbreak,50,K2,0.86
+SVM,R2,many_shot,1,K2,1.0
+SVM,R2,multi_turn,4,K2,1.0
+SVM,R2,output_manipulation,5,K1,1.0
+SVM,R2,payload_injection,2,K1,1.0
+SVM,R2,persona_replacement,3,K2,0.6666666666666666
+SVM,R2,prompt_extraction,3,K4,1.0
+SVM,R2,prompt_injection,4,K1,1.0
+SVM,R2,rag_poisoning,4,K5,1.0
+SVM,R2,response_manipulation,4,K1,0.75
+SVM,R2,system_extraction,2,K4,0.5
+SVM,R2,system_manipulation,4,K1,1.0
+SVM,R2,token_injection,1,K3,1.0
+SVM,R2,token_smuggling,7,K3,1.0
+SVM,R2,training_extraction,10,K4,1.0
+SVM,R3,adversarial,79,K5,0.9493670886075949
+SVM,R3,agent_manipulation,8,K5,0.875
+SVM,R3,benign,381,K0,0.937007874015748
+SVM,R3,context_confusion,6,K1,0.6666666666666666
+SVM,R3,direct_injection,314,K1,0.9745222929936306
+SVM,R3,encoding,30,K3,0.9666666666666667
+SVM,R3,encoding_obfuscation,1,K3,1.0
+SVM,R3,indirect_injection,1,K5,0.0
+SVM,R3,instruction_override,4,K1,0.25
+SVM,R3,jailbreak,50,K2,0.68
+SVM,R3,many_shot,1,K2,1.0
+SVM,R3,multi_turn,4,K2,1.0
+SVM,R3,output_manipulation,5,K1,1.0
+SVM,R3,payload_injection,2,K1,1.0
+SVM,R3,persona_replacement,3,K2,0.6666666666666666
+SVM,R3,prompt_extraction,3,K4,0.6666666666666666
+SVM,R3,prompt_injection,4,K1,1.0
+SVM,R3,rag_poisoning,4,K5,0.75
+SVM,R3,response_manipulation,4,K1,1.0
+SVM,R3,system_extraction,2,K4,0.5
+SVM,R3,system_manipulation,4,K1,1.0
+SVM,R3,token_injection,1,K3,1.0
+SVM,R3,token_smuggling,7,K3,0.7142857142857143
+SVM,R3,training_extraction,10,K4,0.8
+Random Forest,R1,adversarial,79,K5,0.9113924050632911
+Random Forest,R1,agent_manipulation,8,K5,0.625
+Random Forest,R1,benign,381,K0,0.9291338582677166
+Random Forest,R1,context_confusion,6,K1,1.0
+Random Forest,R1,direct_injection,314,K1,0.9936305732484076
+Random Forest,R1,encoding,30,K3,0.8333333333333334
+Random Forest,R1,encoding_obfuscation,1,K3,1.0
+Random Forest,R1,indirect_injection,1,K5,0.0
+Random Forest,R1,instruction_override,4,K1,1.0
+Random Forest,R1,jailbreak,50,K2,0.74
+Random Forest,R1,many_shot,1,K2,0.0
+Random Forest,R1,multi_turn,4,K2,1.0
+Random Forest,R1,output_manipulation,5,K1,1.0
+Random Forest,R1,payload_injection,2,K1,1.0
+Random Forest,R1,persona_replacement,3,K2,0.6666666666666666
+Random Forest,R1,prompt_extraction,3,K4,0.6666666666666666
+Random Forest,R1,prompt_injection,4,K1,1.0
+Random Forest,R1,rag_poisoning,4,K5,0.75
+Random Forest,R1,response_manipulation,4,K1,1.0
+Random Forest,R1,system_extraction,2,K4,0.0
+Random Forest,R1,system_manipulation,4,K1,1.0
+Random Forest,R1,token_injection,1,K3,0.0
+Random Forest,R1,token_smuggling,7,K3,0.42857142857142855
+Random Forest,R1,training_extraction,10,K4,0.8
+Random Forest,R2,adversarial,79,K5,0.9367088607594937
+Random Forest,R2,agent_manipulation,8,K5,0.75
+Random Forest,R2,benign,381,K0,0.9238845144356955
+Random Forest,R2,context_confusion,6,K1,0.8333333333333334
+Random Forest,R2,direct_injection,314,K1,0.9808917197452229
+Random Forest,R2,encoding,30,K3,0.9666666666666667
+Random Forest,R2,encoding_obfuscation,1,K3,0.0
+Random Forest,R2,indirect_injection,1,K5,0.0
+Random Forest,R2,instruction_override,4,K1,1.0
+Random Forest,R2,jailbreak,50,K2,0.86
+Random Forest,R2,many_shot,1,K2,1.0
+Random Forest,R2,multi_turn,4,K2,1.0
+Random Forest,R2,output_manipulation,5,K1,1.0
+Random Forest,R2,payload_injection,2,K1,1.0
+Random Forest,R2,persona_replacement,3,K2,0.6666666666666666
+Random Forest,R2,prompt_extraction,3,K4,1.0
+Random Forest,R2,prompt_injection,4,K1,0.75
+Random Forest,R2,rag_poisoning,4,K5,0.75
+Random Forest,R2,response_manipulation,4,K1,1.0
+Random Forest,R2,system_extraction,2,K4,0.0
+Random Forest,R2,system_manipulation,4,K1,1.0
+Random Forest,R2,token_injection,1,K3,1.0
+Random Forest,R2,token_smuggling,7,K3,1.0
+Random Forest,R2,training_extraction,10,K4,1.0
+Random Forest,R3,adversarial,79,K5,0.8734177215189873
+Random Forest,R3,agent_manipulation,8,K5,0.375
+Random Forest,R3,benign,381,K0,0.958005249343832
+Random Forest,R3,context_confusion,6,K1,1.0
+Random Forest,R3,direct_injection,314,K1,0.9808917197452229
+Random Forest,R3,encoding,30,K3,0.7666666666666667
+Random Forest,R3,encoding_obfuscation,1,K3,0.0
+Random Forest,R3,indirect_injection,1,K5,0.0
+Random Forest,R3,instruction_override,4,K1,0.25
+Random Forest,R3,jailbreak,50,K2,0.38
+Random Forest,R3,many_shot,1,K2,1.0
+Random Forest,R3,multi_turn,4,K2,1.0
+Random Forest,R3,output_manipulation,5,K1,1.0
+Random Forest,R3,payload_injection,2,K1,1.0
+Random Forest,R3,persona_replacement,3,K2,0.6666666666666666
+Random Forest,R3,prompt_extraction,3,K4,0.0
+Random Forest,R3,prompt_injection,4,K1,0.75
+Random Forest,R3,rag_poisoning,4,K5,0.5
+Random Forest,R3,response_manipulation,4,K1,0.75
+Random Forest,R3,system_extraction,2,K4,0.0
+Random Forest,R3,system_manipulation,4,K1,1.0
+Random Forest,R3,token_injection,1,K3,0.0
+Random Forest,R3,token_smuggling,7,K3,0.2857142857142857
+Random Forest,R3,training_extraction,10,K4,0.4
+MLP,R1,adversarial,79,K5,0.9240506329113924
+MLP,R1,agent_manipulation,8,K5,0.625
+MLP,R1,benign,381,K0,0.926509186351706
+MLP,R1,context_confusion,6,K1,0.8333333333333334
+MLP,R1,direct_injection,314,K1,0.9968152866242038
+MLP,R1,encoding,30,K3,0.8333333333333334
+MLP,R1,encoding_obfuscation,1,K3,0.0
+MLP,R1,indirect_injection,1,K5,0.0
+MLP,R1,instruction_override,4,K1,1.0
+MLP,R1,jailbreak,50,K2,0.76
+MLP,R1,many_shot,1,K2,1.0
+MLP,R1,multi_turn,4,K2,1.0
+MLP,R1,output_manipulation,5,K1,1.0
+MLP,R1,payload_injection,2,K1,1.0
+MLP,R1,persona_replacement,3,K2,0.6666666666666666
+MLP,R1,prompt_extraction,3,K4,1.0
+MLP,R1,prompt_injection,4,K1,1.0
+MLP,R1,rag_poisoning,4,K5,0.75
+MLP,R1,response_manipulation,4,K1,1.0
+MLP,R1,system_extraction,2,K4,0.0
+MLP,R1,system_manipulation,4,K1,1.0
+MLP,R1,token_injection,1,K3,1.0
+MLP,R1,token_smuggling,7,K3,0.5714285714285714
+MLP,R1,training_extraction,10,K4,0.9
+MLP,R2,adversarial,79,K5,0.9620253164556962
+MLP,R2,agent_manipulation,8,K5,1.0
+MLP,R2,benign,381,K0,0.9501312335958005
+MLP,R2,context_confusion,6,K1,0.6666666666666666
+MLP,R2,direct_injection,314,K1,0.9777070063694268
+MLP,R2,encoding,30,K3,0.9
+MLP,R2,encoding_obfuscation,1,K3,1.0
+MLP,R2,indirect_injection,1,K5,0.0
+MLP,R2,instruction_override,4,K1,1.0
+MLP,R2,jailbreak,50,K2,0.72
+MLP,R2,many_shot,1,K2,0.0
+MLP,R2,multi_turn,4,K2,1.0
+MLP,R2,output_manipulation,5,K1,1.0
+MLP,R2,payload_injection,2,K1,1.0
+MLP,R2,persona_replacement,3,K2,0.6666666666666666
+MLP,R2,prompt_extraction,3,K4,1.0
+MLP,R2,prompt_injection,4,K1,1.0
+MLP,R2,rag_poisoning,4,K5,1.0
+MLP,R2,response_manipulation,4,K1,0.75
+MLP,R2,system_extraction,2,K4,0.5
+MLP,R2,system_manipulation,4,K1,1.0
+MLP,R2,token_injection,1,K3,1.0
+MLP,R2,token_smuggling,7,K3,1.0
+MLP,R2,training_extraction,10,K4,0.9
+MLP,R3,adversarial,79,K5,0.9240506329113924
+MLP,R3,agent_manipulation,8,K5,0.625
+MLP,R3,benign,381,K0,0.94750656167979
+MLP,R3,context_confusion,6,K1,0.6666666666666666
+MLP,R3,direct_injection,314,K1,0.9681528662420382
+MLP,R3,encoding,30,K3,0.9
+MLP,R3,encoding_obfuscation,1,K3,1.0
+MLP,R3,indirect_injection,1,K5,0.0
+MLP,R3,instruction_override,4,K1,0.5
+MLP,R3,jailbreak,50,K2,0.5
+MLP,R3,many_shot,1,K2,1.0
+MLP,R3,multi_turn,4,K2,1.0
+MLP,R3,output_manipulation,5,K1,1.0
+MLP,R3,payload_injection,2,K1,1.0
+MLP,R3,persona_replacement,3,K2,0.6666666666666666
+MLP,R3,prompt_extraction,3,K4,0.6666666666666666
+MLP,R3,prompt_injection,4,K1,0.75
+MLP,R3,rag_poisoning,4,K5,1.0
+MLP,R3,response_manipulation,4,K1,0.75
+MLP,R3,system_extraction,2,K4,0.0
+MLP,R3,system_manipulation,4,K1,1.0
+MLP,R3,token_injection,1,K3,1.0
+MLP,R3,token_smuggling,7,K3,0.5714285714285714
+MLP,R3,training_extraction,10,K4,0.8

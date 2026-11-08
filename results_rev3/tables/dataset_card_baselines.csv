@@ -1,0 +1,4 @@
+﻿model,F1,FPR
+Random Forest (dataset-card baseline),0.969,0.069
+Logistic Regression (dataset-card baseline),0.964,0.064
+LinearSVC (dataset-card baseline),0.959,0.103

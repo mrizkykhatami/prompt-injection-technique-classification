@@ -1,0 +1,7 @@
+﻿class_id,class_code,class_name,train,validation,test,total
+0,K0,Benign,1699,396,381,2476
+1,K1,Instruction Override,1518,308,343,2169
+2,K2,Role-play and Conversational Jailbreak,344,58,58,460
+3,K3,Obfuscation and Token Smuggling,214,48,39,301
+4,K4,Prompt and Information Extraction,111,20,15,146
+5,K5,"Code Execution, Indirect and Agent Injection",446,95,92,633
